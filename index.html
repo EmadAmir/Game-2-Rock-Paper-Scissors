@@ -1,13 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Rock, Paper, Scissors</title>
-  <script src="app.js" defer></script>
-</head>
-<body>
-  <button id="start-game-btn">Start Game!</button>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="app.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="game-container">
+      <button id="start-game-btn">Start Game</button>
+      <button id="stop-game-btn">Stop Game</button>
+    </div>
+    <div class="box-container">
+      <button id="rock-btn" class='button btn-rock' disabled>Rock</button>
+      <button id="paper-btn" class='button btn-paper' disabled>Paper</button>
+      <button id="scissor-btn" class='button btn-scissor' disabled>Scissor</button>
+    </div>
+    <div class="label-moves-container">
+      <label id="player-label">
+      
+      </label>
+      <label id="computer-label">
+        
+      </label>
+    </div>
+    <div class="display-label-container">
+      <label id="display-label">
+        
+      </label>
+    </div>
+  </body>
 </html>
